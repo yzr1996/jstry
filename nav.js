@@ -4,7 +4,7 @@ $(document).ready(function() {
     $( this ).addClass("dropdown-menu-" + num);
   });
   
-  $(".dropdown-menu-1").append('<li><a href="https://bccandataanalytics.shinyapps.io/IncidenceCounts" target="_blank">BC: New Cancer Diagnoses</a></li>');
+  $(".dropdown-menu-1").append('<li><a href="https://bccandataanalytics.shinyapps.io/IncidenceCounts" target="_blank">BC: New Cancer Dia</a></li>');
   $(".dropdown-menu-1").append('<li><a href="https://bccandataanalytics.shinyapps.io/IncidenceCrudeRates" target="_blank">BC: Crude Rates</a></li>');
   $(".dropdown-menu-1").append('<li><a href="https://bccandataanalytics.shinyapps.io/IncidenceAgeAdjRates/" target="_blank">BC: Age-standardized Cancer Incidence Rates</a></li>');
   $(".dropdown-menu-1").append('<li><a href="https://bccandataanalytics.shinyapps.io/RegionalIncidenceCounts/" target="_blank">BC/Regional: New Cancer Diagnoses</a></li>');
