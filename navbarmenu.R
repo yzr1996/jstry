@@ -1,8 +1,0 @@
-navbar_menu <- function() {
-  
-  return(navbarMenu(actionButton("inc", "Incidence Reports")),
-         navbarMenu(actionButton("mort", "Mortality Reports")),
-         navbarMenu(actionButton("prev", "Prevalence Reports")),
-         navbarMenu(actionButton("proj", "Projection Reports")),
-         navbarMenu(actionButton("tab", "Create Your Own Table"))) 
-}
